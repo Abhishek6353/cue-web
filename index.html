@@ -1,113 +1,62 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Cue is a private iPhone app that turns saved links and screenshots into a small queue of things to do."
-    />
-    <title>Cue — Save it with a purpose</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="mobile.css" />
-  </head>
-  <body>
-    <a class="skip-link" href="#beta">Skip to beta form</a>
-    <main>
-      <section class="hero" aria-labelledby="hero-title">
-        <nav class="nav" aria-label="Main navigation">
-          <a class="wordmark" href="#top" aria-label="Cue home"><span aria-hidden="true">●</span> Cue</a>
-          <a class="nav-link" href="#how-it-works">How it works <span aria-hidden="true">↓</span></a>
-        </nav>
-
-        <div class="hero-grid" id="top">
-          <div class="hero-copy">
-            <p class="eyebrow"><span></span> Private iPhone beta</p>
-            <h1 id="hero-title">Save it with<br />a <em>purpose.</em></h1>
-            <p class="lede">Cue turns forgotten links, screenshots, and ideas into a small queue of things to read, try, buy, or do—when they’re useful.</p>
-            <a class="button button-primary" href="#beta">Request beta access <span aria-hidden="true">→</span></a>
-            <p class="microcopy">Built for people with a little too much saved for later.</p>
-          </div>
-
-          <div class="phone-stage" aria-label="Preview of the Cue iPhone app">
-            <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
-            <div class="phone">
-              <div class="speaker" aria-hidden="true"></div>
-              <div class="phone-screen">
-                <div class="status"><span>9:41</span><span>● ● ●</span></div>
-                <div class="app-top"><strong>Cue</strong><button aria-label="Add an item">＋</button></div>
-                <p class="app-title">Make room for<br /><strong>what matters.</strong></p>
-                <p class="app-subtitle">A small queue of things you meant to use.</p>
-                <div class="queue-label"><span>Today</span><small>2</small></div>
-                <article class="cue-card recipe-card">
-                  <div class="card-icon">♨</div>
-                  <div><strong>Weeknight tomato pasta</strong><small>NYT Cooking · Try</small></div>
-                  <b aria-hidden="true">›</b>
-                </article>
-                <article class="cue-card place-card">
-                  <div class="card-icon">⌖</div>
-                  <div><strong>Little Rice Bowl</strong><small>Instagram · Go</small></div>
-                  <b aria-hidden="true">›</b>
-                </article>
-                <div class="tabbar"><span class="active">☷<small>Queue</small></span><span>▣<small>Library</small></span><span>⚙<small>Settings</small></span></div>
-              </div>
-            </div>
-            <div class="annotation annotation-one"><span class="annotation-dot">✦</span><span>Only what<br />matters now</span></div>
-            <div class="annotation annotation-two"><span>Saved with intent</span><i></i></div>
-          </div>
-        </div>
-      </section>
-
-      <section class="problem" aria-labelledby="problem-title">
-        <div class="section-label">The familiar pattern</div>
-        <div class="problem-content">
-          <h2 id="problem-title">Saving is easy.<br /><em>Coming back is hard.</em></h2>
-          <p>You save a recipe between meetings, a place for the weekend, a product to compare, an article worth reading. Then it vanishes into screenshots, browser tabs, and saved posts.</p>
-        </div>
-        <div class="graveyard" aria-hidden="true">
-          <span>147 screenshots</span><span>82 tabs</span><span>Saved posts</span><span>Maybe later</span><span>Where was that?</span>
-        </div>
-      </section>
-
-      <section class="process" id="how-it-works" aria-labelledby="process-title">
-        <div class="process-intro"><div class="section-label">A different kind of save</div><h2 id="process-title">A cue, not<br />another archive.</h2></div>
-        <ol class="steps">
-          <li><span class="step-number">01</span><div class="step-art share-art">↗</div><h3>Share it</h3><p>Save a link, screenshot, or thought from anywhere on your iPhone.</p></li>
-          <li><span class="step-number">02</span><div class="step-art intent-art"><span>Read</span><span class="selected">Try</span><span>Go</span></div><h3>Name the intent</h3><p>Tell Cue what it’s for: read, watch, try, buy, go, use for work, or keep.</p></li>
-          <li><span class="step-number">03</span><div class="step-art action-art"><span>Today</span><b>Done</b></div><h3>Act or let it go</h3><p>See a few things at the right time. Finish, snooze, keep, or discard without guilt.</p></li>
-        </ol>
-      </section>
-
-      <section class="promise" aria-labelledby="promise-title">
-        <div class="promise-stamp">CUE<br /><span>FOR</span><br />LATER</div>
-        <div><div class="section-label">Less noise. More follow-through.</div><h2 id="promise-title">Your saved things<br />should <em>lead somewhere.</em></h2></div>
-        <p>Cue keeps the queue small on purpose. No endless feed. No pressure to optimise your life. Just a gentle place to return to what you meant to use.</p>
-      </section>
-
-      <section class="beta" id="beta" aria-labelledby="beta-title">
-        <div class="beta-copy">
-          <p class="eyebrow"><span></span> Help shape Cue</p>
-          <h2 id="beta-title">Try Cue before<br />it’s finished.</h2>
-          <p>We’re looking for a small group of iPhone users who regularly save things and want a better way to come back to them.</p>
-          <ul><li>Private early access to the iPhone beta</li><li>A short two-week trial</li><li>Your feedback directly shapes what comes next</li></ul>
-        </div>
-        <form class="beta-form" novalidate>
-          <div class="form-heading"><strong>Request beta access</strong><span>It takes about a minute.</span></div>
-          <label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" required />
-          <label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" inputmode="email" required aria-describedby="email-hint" /><small id="email-hint">For an invite if you’re selected.</small>
-          <fieldset><legend>What do you save and forget most?</legend><div class="choice-grid"><label><input type="radio" name="saves" value="Links & articles" required /><span>Links & articles</span></label><label><input type="radio" name="saves" value="Screenshots" /><span>Screenshots</span></label><label><input type="radio" name="saves" value="Places & recipes" /><span>Places & recipes</span></label><label><input type="radio" name="saves" value="Products & ideas" /><span>Products & ideas</span></label></div></fieldset>
-          <label for="note">Anything you’d want Cue to help with? <span>(optional)</span></label><textarea id="note" name="note" rows="3"></textarea>
-          <p class="form-error" role="alert" hidden></p>
-          <button class="button button-primary" type="submit">Request beta access <span aria-hidden="true">→</span></button>
-          <p class="form-note">Cue is for iPhone. No marketing list, no tracking.</p>
-          <div class="form-success" role="status" hidden><span>✓</span><strong>You’re on the early-access list.</strong><p>Thanks for helping us make saved things more useful.</p></div>
-        </form>
-      </section>
-    </main>
-    <footer><a class="wordmark" href="#top"><span aria-hidden="true">●</span> Cue</a><p>Save it with a purpose.</p><nav aria-label="Legal pages"><a class="nav-link" href="legal/privacy-policy.html">Privacy Policy</a> · <a class="nav-link" href="legal/terms-and-conditions.html">Terms &amp; Conditions</a></nav><p>Private iPhone beta · 2026</p></footer>
-    <script src="script.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#FFFFFF">
+  <meta name="description" content="Cue is a private, local-first iPhone app for giving saved links, screenshots, and ideas a useful next step.">
+  <title>Cue — Good finds. Right moment.</title>
+  <link rel="stylesheet" href="styles.css?v=2">
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav wrap" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="Cue home"><span class="brand-mark" aria-hidden="true"></span>Cue</a>
+      <div class="nav-links"><a href="#how-it-works">How it works</a><a href="#privacy">Privacy</a><a class="nav-cta" href="#availability">Availability <span aria-hidden="true">↗</span></a></div>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div>
+        <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span>A quieter way to come back</p>
+        <h1 id="hero-title">Good finds.<br><span>Right moment.</span></h1>
+        <p class="lead">Give the links, screenshots, and ideas you save a purpose and a time. Cue brings a few of them back when you’re ready to use them.</p>
+        <a class="button" href="#how-it-works">See how Cue works <span aria-hidden="true">↗</span></a>
+        <p class="supporting">A local-first iPhone app, currently in development.</p>
+      </div>
+      <figure class="hero-preview">
+        <span class="preview-accent" aria-hidden="true"></span>
+        <img src="assets/queue-populated.jpg" width="368" height="800" alt="Cue Queue with Today, This Weekend, and Later choices and a small set of saved finds">
+        <figcaption>Current iPhone app preview · sample finds</figcaption>
+      </figure>
+    </section>
+    <section class="intro-band" aria-labelledby="intro-title">
+      <div class="wrap intro-grid">
+        <p class="kicker">The idea</p>
+        <div><h2 id="intro-title">Save for what comes next.</h2><p>Things worth keeping often disappear into tabs, screenshots, and saved posts. Cue asks one simple question at capture: what do you want to do with this?</p></div>
+      </div>
+    </section>
+    <section class="section wrap" id="how-it-works" aria-labelledby="how-title">
+      <div class="section-heading"><p class="kicker">How Cue works</p><h2 id="how-title">A small path from<br>saved to useful.</h2></div>
+      <ol class="steps">
+        <li class="step"><span class="step-number">01</span><div class="step-symbol share-symbol" aria-hidden="true">↗</div><h3>Bring it in</h3><p>Share a link, image, or text to Cue from another app, or add it yourself.</p></li>
+        <li class="step"><span class="step-number">02</span><div class="step-symbol purpose-symbol" aria-hidden="true"><span>Read</span><span>Try</span><span>Go</span></div><h3>Give it a purpose</h3><p>Choose Read, Watch, Try, Buy, Go, Work, or Reference. Then pick Today, This Weekend, Later, or Keep.</p></li>
+        <li class="step"><span class="step-number">03</span><div class="step-symbol timing-symbol" aria-hidden="true"><span>Today</span><span>This Weekend</span><span>Later</span></div><h3>Return when ready</h3><p>See a small Queue, then mark a find done, snooze it, keep it, or discard it.</p></li>
+      </ol>
+    </section>
+    <section class="queue-section" aria-labelledby="queue-title">
+      <div class="wrap queue-grid">
+        <figure class="queue-preview"><img src="assets/queue-first-use.jpg" width="368" height="800" loading="lazy" alt="Cue’s first-use Queue with a Save your first find button and sharing guidance"><figcaption>The first-use Queue in the iPhone app</figcaption></figure>
+        <div class="queue-copy"><p class="kicker">Made to feel manageable</p><h2 id="queue-title">A little time,<br>well spent.</h2><p>Your Queue starts small, with up to three finds in each timing group before you choose to see more. Your Library keeps the rest available when you need it.</p><div class="timing-chips" aria-label="Cue timing choices"><span>Today</span><span>This Weekend</span><span>Later</span><span>Keep</span></div></div>
+      </div>
+    </section>
+    <section class="section wrap privacy-grid" id="privacy" aria-labelledby="privacy-title">
+      <div><p class="kicker">Your things stay yours</p><h2 id="privacy-title">Private by default.<br>Useful by design.</h2></div>
+      <div class="privacy-copy"><p>Cue stores your saved items on your iPhone. It does not require an account or use analytics or tracking. When a saved link appears in your Queue or Library, Cue may contact the original website to fill in its title or image.</p><a class="text-link" href="legal/privacy-policy.html">Read the Privacy Policy <span aria-hidden="true">↗</span></a></div>
+    </section>
+    <section class="availability" id="availability" aria-labelledby="availability-title"><div class="wrap availability-inner"><div><p class="kicker">Availability</p><h2 id="availability-title">Cue is taking shape.</h2><p>Early-access signups are not open yet. Check back here for availability updates.</p></div><span class="availability-mark" aria-hidden="true">C</span></div></section>
+  </main>
+  <footer class="footer wrap"><a class="brand" href="#top"><span class="brand-mark" aria-hidden="true"></span>Cue</a><p>Good finds. Right moment.</p><nav aria-label="Legal pages"><a href="legal/privacy-policy.html">Privacy Policy</a><a href="legal/terms-and-conditions.html">Terms &amp; Conditions</a></nav><small>© 2026 Cue</small></footer>
+</body>
 </html>

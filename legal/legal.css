@@ -1,22 +1,22 @@
 :root {
   color-scheme: light dark;
-  --page: #fcfaf2;
-  --surface: #faeddb;
-  --text: #241c18;
-  --secondary: #736964;
-  --border: #e5dcd2;
-  --accent: #d64f14;
-  --accent-ink: #ad3e0d;
+  --page: #ffffff;
+  --surface: #f7f6f4;
+  --text: #201e1b;
+  --secondary: #6b655d;
+  --border: #e2dfd9;
+  --accent: #ff9500;
+  --accent-ink: #613900;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --page: #181512;
-    --surface: #29221b;
-    --text: #faf7f2;
-    --secondary: #c9bfb4;
-    --border: #51483f;
-    --accent-ink: #ffad85;
+    --page: #16140f;
+    --surface: #201e1b;
+    --text: #faf9f7;
+    --secondary: #c9c4bb;
+    --border: #4f4a44;
+    --accent-ink: #ffbe61;
   }
 }
 
@@ -73,7 +73,7 @@ a:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; border-
 .page-heading { max-width: 830px; }
 .eyebrow { margin: 0 0 18px; color: var(--accent-ink); font-size: .77rem; font-weight: 700; letter-spacing: .13em; text-transform: uppercase; }
 h1, h2, p { overflow-wrap: break-word; }
-h1 { margin: 0; font-family: Georgia, serif; font-size: clamp(2.45rem, 5.2vw, 4.25rem); line-height: 1.07; font-weight: 700; letter-spacing: -.055em; }
+h1 { margin: 0; font-size: clamp(2.45rem, 5.2vw, 4.25rem); line-height: 1.07; font-weight: 700; letter-spacing: -.055em; }
 .updated { margin: 18px 0 0; color: var(--secondary); font-size: .84rem; }
 .introduction {
   margin: 34px 0 0;
